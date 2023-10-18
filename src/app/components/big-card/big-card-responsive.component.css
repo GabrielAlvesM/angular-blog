@@ -1,9 +1,9 @@
 @media screen and (max-width: 700px) {
   .container__big-card{
-    width: 80vw;
+    width: 100vw;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 
   }
   .big-card__photo{
@@ -16,7 +16,6 @@
   .big-card__description > p > a{
     font-size: 0.8rem;
     text-align: justify;
-
   }
   .big-card__description{
     width: 60vw;

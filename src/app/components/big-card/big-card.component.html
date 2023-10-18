@@ -5,11 +5,11 @@
     alt="default img">
   </div>
   <div class="big-card__title">
-      <a href="#" class="big-card__link">
+      <a [routerLink]="['content', Id]"  class="big-card__link">
           <h1>{{cardTitle}}</h1>
       </a>
   </div>
   <div class="big-card__description">
-    <p><a href="#">{{cardDescription}}</a></p>
+    <p><a [routerLink]="['content', Id]" >{{cardDescription}}</a></p>
   </div>
 </div>
